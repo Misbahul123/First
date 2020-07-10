@@ -126,6 +126,8 @@ nav ul li {
 
 .img-content {
     position: absolute;
+    width: auto;
+    height: auto;
     top: 50px;
     bottom: 0px;
     right: 50px;
@@ -159,10 +161,8 @@ nav {
 
 @media all and (max-width: 1000px) {
     .img-content{
-        top: 200px;
-        bottom: 0px;
-        right: 0px;
-        width: 50%;
+        width: auto;
+        height: auto;
     }
 
     .flex-list li{
